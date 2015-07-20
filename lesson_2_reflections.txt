@@ -21,3 +21,14 @@ When you have changed multiple files in your working directory, staging area all
 you to group these changes into a logical unit. You can add only related changes to
 the staging area so you can commit them all as one logical unit. Which is how 
 commits are defined in Git. 
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+Adding new features that I don't want to disrupt production code is where
+branches will be helpful. I can work on production fixes and new features
+simultaneously and only introduce features in production when I'm 
+certain they will not break production code.
+
+git branch -> Show the current branch
+git branch branch_name -> Create a new Git branch.
+git checkout branch_name -> Checkout a specific branch.
