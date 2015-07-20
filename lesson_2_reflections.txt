@@ -15,3 +15,9 @@ git diff -> Show diff of working directory and staging area. This means Git will
 you all changes you made to your repo since the last staging.
 git diff --staged -> Show a diff between staging area and the most recent commit.
 git diff commit1 commit2 -> Show a diff between commit1 and commit2
+
+How can you use the staging area to make sure you have one commit per logical change?
+When you have changed multiple files in your working directory, staging area allows 
+you to group these changes into a logical unit. You can add only related changes to
+the staging area so you can commit them all as one logical unit. Which is how 
+commits are defined in Git. 
