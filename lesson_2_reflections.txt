@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+I think Git would build a tree of information regarding the directory and store metadata
+related to everything in the given directory.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+Staging area is for pooling logically related files together. It is temporary and 
+is visible only until a commit is done. Unlike working directory, staging area
+ceases to exit once a commit is done. 
