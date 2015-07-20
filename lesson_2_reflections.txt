@@ -6,4 +6,12 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 Staging area is for pooling logically related files together. It is temporary and 
 is visible only until a commit is done. Unlike working directory, staging area
-ceases to exit once a commit is done. 
+ceases to exit once a commit is done.
+
+git add file_name -- Add a file to staging area
+git status -- Show status of a repository. Staged files, files yet to be added and so on.
+git commit -- Commit all changes in staging area to repository
+git diff -- Show diff of working directory and staging area. This means Git will show
+you all changes you made to your repo since the last staging.
+git diff --staged --Show a diff between staging area and the most recent commit.
+git diff commit1 commit2 -- Show a diff between commit1 and commit2
