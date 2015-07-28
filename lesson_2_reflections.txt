@@ -38,7 +38,7 @@ Diagrams can help me visualize branches in Git.
 
 What is the result of merging two branches together? Why do we represent 
 it in the diagram the way we do?
-Merging two branches will compare all files in each of the branches at
+Merging two branches will compare all files in each of the branches
 with their originals (parent) at the time the branch was created.
 After merging commits in both branches are ordered by their timestamps.
 As a side effect of this, we will not know the parent commit of some 
