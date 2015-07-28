@@ -32,3 +32,22 @@ certain they will not break production code.
 git branch -> Show the current branch
 git branch branch_name -> Create a new Git branch.
 git checkout branch_name -> Checkout a specific branch.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams can help me visualize branches in Git.
+
+What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do?
+Merging two branches will compare all files in each of the branches at
+with their originals (parent) at the time the branch was created.
+After merging commits in both branches are ordered by their timestamps.
+As a side effect of this, we will not know the parent commit of some 
+commits. 'git show <commit_id>' can show the diff between a commit and
+its parent in these cases.
+
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+Automatic merges save time. Conflicts can be resolved and Git does most 
+of the work anyway. We only need to look at files that have conflicts.
+
+Manual merges are a pain. 
